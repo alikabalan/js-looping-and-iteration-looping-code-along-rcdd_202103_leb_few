@@ -1,6 +1,6 @@
 //No.1
 
-let names = ["Ada", "Brendan", "Ali"];
+
 
 function writeCards(names , birthday) {
   const heyHey = []
@@ -10,7 +10,7 @@ console.log(`Thank you, ${names[i]}, for the wonderful ${birthday} gift!`);
 
 return heyHey;
 }
-
+let names = ["Ada", "Brendan", "Ali"];
 writeCards(names, 'birthday');
 
 
