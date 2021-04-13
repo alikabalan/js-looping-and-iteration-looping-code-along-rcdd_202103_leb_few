@@ -3,14 +3,15 @@
 let names = ["Ada", "Brendan", "Ali"];
 
 function writeCards(names , birthday) {
+  const heyHey = []
   for (let i = 0; i < names.length; i++) {
 console.log(`Thank you, ${names[i]}, for the wonderful ${birthday} gift!`);
 }
 
-return names;
+return heyHey;
 }
 
-writeCards(name, 'birthday');
+writeCards(names, 'birthday');
 
 
 
